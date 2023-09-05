@@ -7,8 +7,8 @@ export const Primary = styled.main`
   gap: 1rem;
 `;
 export const Values = styled.div`
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
   input {
     width: 200px;
   }

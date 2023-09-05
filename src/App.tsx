@@ -7,7 +7,7 @@ export function App() {
   let [result, setResult] = useState(0);
 
   const percent = 1.96
-  const what = 0.25;
+  // const what = 0.25;
 
   function handleMaths() {
     result = 100 * (percent * (parseFloat(pop) / Math.sqrt(parseFloat(sample))));

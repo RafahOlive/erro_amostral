@@ -7,15 +7,15 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
     }
 
-    /* Chrome, Safari, Edge, Opera */
+/* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
-/* Firefox */
+/* Firefox
 input[type=number] {
   -moz-appearance: textfield;
-}
+} */
  `;
